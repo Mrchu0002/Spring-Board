@@ -26,11 +26,6 @@
     <factorypathentry kind="VARJAR" id="M2_REPO/org/mybatis/mybatis/3.5.11/mybatis-3.5.11.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/mybatis/mybatis-spring/2.0.6/mybatis-spring-2.0.6.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/bgee/log4jdbc-log4j2/log4jdbc-log4j2-jdbc4.1/1.16/log4jdbc-log4j2-jdbc4.1-1.16.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="EXTJAR" id="C:\Users\pc\Desktop\tomcat_jar_file\taglibs-standard-compat-1.2.5.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="EXTJAR" id="C:\Users\pc\Desktop\tomcat_jar_file\taglibs-standard-impl-1.2.5.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="EXTJAR" id="C:\Users\pc\Desktop\tomcat_jar_file\taglibs-standard-jstlel-1.2.5.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="EXTJAR" id="C:\Users\pc\Desktop\tomcat_jar_file\taglibs-standard-spec-1.2.5.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="EXTJAR" id="C:\HTML5\lombok.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="ECLIPSE_HOME/plugins/org.junit.jupiter.api_5.7.1.v20210222-1948.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="ECLIPSE_HOME/plugins/org.junit.jupiter.engine_5.7.1.v20210222-1948.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="ECLIPSE_HOME/plugins/org.junit.jupiter.migrationsupport_5.7.1.v20210222-1948.jar" enabled="true" runInBatchMode="false"/>
@@ -45,6 +40,6 @@
     <factorypathentry kind="VARJAR" id="ECLIPSE_HOME/plugins/org.apiguardian_1.1.0.v20190826-0900.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="JUNIT_HOME" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="ECLIPSE_HOME/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="EXTJAR" id="C:\chu-work\sts3_data\ex00\src\main\webapp\WEB-INF\lib\ojdbc6.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="EXTJAR" id="C:\chu-work\sts3_data\ex02\src\main\webapp\WEB-INF\lib\mysql-connector-j-8.0.33.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="PLUGIN" id="org.eclipse.jst.ws.annotations.core" enabled="true" runInBatchMode="false"/>
 </factorypath>
