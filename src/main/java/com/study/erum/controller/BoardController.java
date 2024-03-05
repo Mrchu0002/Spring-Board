@@ -25,11 +25,11 @@ public class BoardController {
 	
 	@PostMapping("/save")
 	public String save(@ModelAttribute BoardDTO boardDTO) {
-		int saveResult = 
-		if() {
-			
+		int saveResult = boardService.save(boardDTO);
+		if(saveResult > 0) {
+			return "redirect:/board/";
 		}else {
-			
+			return "save";
 		}
 		
 	}
