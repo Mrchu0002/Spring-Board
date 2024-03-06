@@ -22,7 +22,7 @@
 				<td>
 					<a href="/board?id=${board.id }">${board.boardTitle }</a>
 				</td>
-				<td>${board.boardWrite }</td>
+				<td>${board.boardWriter }</td>
 				<td>${board.boardCreatedTime }</td>
 				<td>${board.boardHits }</td>
 			</tr>

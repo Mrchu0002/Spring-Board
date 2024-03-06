@@ -14,7 +14,7 @@
 		</tr>
 		<tr>
 			<th>write</th>
-			<td>${board.boardWrite }</td>
+			<td>${board.boardWriter }</td>
 		</tr>
 		<tr>
 			<th>date</th>
@@ -51,10 +51,6 @@
 			const id = '${board.id}';
 			location.href = "/board/delete?id="+id;
 		}
-	
-	
-	
-	
 	
 	
 	</script>

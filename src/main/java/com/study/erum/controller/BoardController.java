@@ -46,8 +46,14 @@ public class BoardController {
 	}
 	@GetMapping
 	public String findById(@RequestParam("id") Long id, Model model) {
+		boardService.updateHits(id);
 		BoardDTO boardDTO = boardService.findById(id);
 		model.addAttribute("board",boardDTO);
 		return "detail";
+	}
+	@GetMapping("/delete")
+	public String delete(@RequestParam("id") Long id) {
+		boardService.delete(id);
+		return "redirect:/board/";
 	}
 }
