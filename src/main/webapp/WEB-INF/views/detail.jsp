@@ -10,15 +10,15 @@
 	<table>
 		<tr>
 			<th>id</th>
-			<td>${board.id }</td>
+			<td>${board.id}</td>
 		</tr>
 		<tr>
 			<th>write</th>
-			<td>${board.boardWriter }</td>
+			<td>${board.boardWriter}</td>
 		</tr>
 		<tr>
 			<th>date</th>
-			<td>${boardCreatedTime }</td>
+			<td>${board.boardCreatedTime }</td>
 		</tr>
 		<tr>
 			<th>hits</th>

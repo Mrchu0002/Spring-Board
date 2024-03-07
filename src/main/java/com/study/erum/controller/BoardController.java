@@ -34,7 +34,7 @@ public class BoardController {
 			return "redirect:/board/";
 		}else {
 			return "save";
-		}
+		}	
 		
 	}
 	
@@ -62,5 +62,13 @@ public class BoardController {
 		BoardDTO boardDTO = boardService.findById(id);
 		model.addAttribute("board",boardDTO);
 		return "update";
+	}
+	@PostMapping("/update")
+	public String update(@ModelAttribute BoardDTO boardDTO, Model model) {
+		boardService.update(boardDTO);
+		BoardDTO dto = boardService.findById(boardDTO.getId());
+		model.addAttribute("board",dto);
+		return "detail";
+		//return "redirect:/board/?id="+boardDTO.getId();//
 	}
 }
