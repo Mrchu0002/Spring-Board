@@ -68,7 +68,7 @@ public class BoardController {
 		boardService.update(boardDTO);
 		BoardDTO dto = boardService.findById(boardDTO.getId());
 		model.addAttribute("board",dto);
-		return "detail";
-		//return "redirect:/board/?id="+boardDTO.getId();//
+		//return "detail";
+		return "redirect:/board/?id="+boardDTO.getId();
 	}
 }
